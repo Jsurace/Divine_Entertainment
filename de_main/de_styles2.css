@@ -1,0 +1,336 @@
+/* 
+Divine Entertainment Inc. 
+-Photography Page Stylesheet-
+Author:	Jenna Surace
+Date:	1/4/2019
+
+File: de_styles2.css
+*/
+body {
+  background-image: url(../de_photos/partylightbubble.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  }
+
+/*=================SlideShow====================*/
+#slides {
+    position: relative;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.slideShowing {
+    opacity: 1;
+    z-index: 2;
+}
+
+/*==========Navigation Styles==========*/
+div.nav {
+  padding: 15px 0px;
+  background-color: black;
+  position: relative;
+  width: 1349px;
+}
+
+div.nav li {
+  position: relative;
+  list-style-type: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.4em;
+  display: inline;
+  padding-right: 40px;
+}
+
+div.nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+/*=======Hover Effect===========*/
+div#hoverNav li a {
+  display: inline-block;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.3em;
+  color: rgba(230, 222, 0, 1);
+  border-radius: 0;
+  padding: 18px 60px 20px;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(223,190,106,0.8), rgba(245,222,77,0.8), rgba(34,34,34,0), rgba(34,34,34,0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0;
+  border: none;
+  border: 1px solid rgba(230,222,0, 0.5);
+}
+
+div#hoverNav li a:hover {
+  color: #fff;
+  border: 1px solid rgba(223,190,106,0);
+  color: white;
+  background-position: 99% 50%;
+}
+
+div#hoverNav ul.float-left {
+  position: relative;
+  width: 1200px;
+}
+
+/*==============Section One=============*/
+h2#sectH {
+  color: white;
+  position: relative;
+  left: 70px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+p#sectP {
+  color: white;
+  position: relative;
+  left: 180px;
+  font-size: 20px;
+  text-align: center;
+  width: 355px;
+}
+
+div#row1 {
+  margin: 0;
+  padding: 0;
+}
+
+div#cont1 {
+  background-color: black;
+  height: 480px;
+  width: 1349px;
+  margin: 0;
+  padding: 0;
+}
+
+div#cont1 ul#slides {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+div#cont1 .float-right {
+  position: relative;
+  right: 145px;
+  bottom: 250px;
+}
+
+div#cont1 hr {
+  background-color: yellow;
+  position: relative;
+  left: 70px;
+  width: 90%;
+}
+
+img#intro {
+  padding: 0;
+  position: relative;
+ left: 35px;
+ top: 30px;
+ width: 90%;
+ height: 420px;
+}
+
+
+/*==============Section Two=================*/
+div#cont2 {
+	background-color: black;
+	opacity: 0.8;
+	height: 400px;
+	width: 1349px;
+	margin: 0;
+	padding: 0;
+}
+
+div#cont2 hr {
+  background-color: yellow;
+  position: relative;
+  width: 320px;
+}
+
+div#cont2 p {
+	color: white;
+  text-align: center;
+  position: relative;
+  left: 100px;
+  width: 300px;
+}
+
+div#cont2 h2 {
+	color: white;
+  position: relative;
+  left: 65px;
+}
+
+div#cont2 ul li {
+  position: relative;
+  color: white;
+  text-align: center;
+  right: 30px;
+  top: 20px;
+  list-style-type: none;
+}
+
+div#cont2 div.col-md-2 {
+  position: relative;
+  padding: 0px;
+  height: 400px;
+  width: 100px;
+}
+
+div#cont2 div.float-left {
+  position: relative;
+  width: 500px;
+}
+
+div#cont2 .row {
+  position: relative;
+  width: 1349px;
+  height: 400px;
+  bottom: 131px;
+}
+
+div#cont2 img {
+  position: relative;
+  width: 224px;
+  height: 400px;
+}
+
+div#cont2 img#imgSize1 {
+  position: relative;
+  width: 100%;
+}
+
+/*------===========Footer Styles========------*/
+div.footer {
+  text-align: left;
+  background-color: black;
+  position: relative;
+  width: 1349px;
+}
+
+div.footer li {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+div.footer li a {
+  text-decoration: none;
+  color: white;
+}
+
+div#foot1 h1 {
+  color: white;
+}
+
+div#foot1 hr {
+  background-color: yellow;
+  position: relative;
+  width: 170px;
+  right: 90px;
+}
+
+div#foot2 h1 {
+  color: white;
+}
+
+div#foot2 hr {
+  background-color: yellow;
+  position: relative;
+  width: 210px;
+  right: 55px;
+}
+
+div.footer p {
+  color: white;
+}
+
+img#footImg {
+ width: 10%;
+ height: 10%;
+ align-content: left;
+ padding: 4px 4px;
+}
+
+
+
+
+
+
+
+
+/*===============Tablet Media==================*/
+@media only screen and (max-width: 768px) {
+
+html {
+  background-color: black;
+}
+
+/*-----Tablet Media Navigation-----*/
+div.nav ul {
+  padding: 0px;
+}
+
+div.nav div#hoverNav {
+  margin: 0px;
+  padding: 0px;
+}
+
+div.nav li {
+  position: relative;
+  padding: 0px;
+  width: 200px;
+}
+
+div.nav div#hoverNav li a {
+  padding: 20px 30px;
+}
+
+div#hoverNav li a#home {
+  position: relative;
+  left: 17px;
+}
+
+div#hoverNav li a#photoa {
+  position: relative;
+  right: 33px;
+}
+
+div#hoverNav li a#renta {
+  position: relative;
+  left: 12px;
+}
+
+div#hoverNav li a#booka {
+  position: relative;
+  right: 10px;
+}
+
+
+
+
+

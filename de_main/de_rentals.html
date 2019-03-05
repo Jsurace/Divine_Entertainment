@@ -1,0 +1,161 @@
+<!--
+Divine Entertainment Inc.  
+Rental business for house partys, weddings, or any party event needs. 
+Offering professional photography, rentals, 
+Dj services, and event organizer services.
+
+Project1
+Author:	Jenna Surace
+Date:	1/4/2019
+
+File src: de_rentals.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width= device-width, initial-scale= 1" />
+	<!--Bootstrap CND file-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Aclonica|Charm|Comfortaa|Merienda|Montserrat+Alternates" rel="stylesheet">
+	<title>DE Rental & Event Services</title>
+	<!--Local External Files-->
+	<link href="de_styles3.css" rel="stylesheet">
+</head>
+
+<body>
+<!--Navigation Bar-->
+<div class="nav">
+	<div id="hoverNav" class="container">
+		<ul class="float-left">
+			<li id="home"><a id="home" href="de_main.html">Home</a></li>
+			<li><a id="photoa" href="de_photog.html">Photography</a></li>
+			<li><a id="renta" href="de_rentals.html">Rentals</a></li>
+			<li><a id="booka" href="de_booking.html">Booking</a></li>
+		</ul>
+	</div>
+</div>
+
+<!--Page Content-->
+<!-----==========First Section==========---->
+
+<div id="cont1" class="container-large">
+	<div id="row1" class="row">
+		<div style="border-right: 1px solid white;" class="float-left" class="col-md-6">
+			<h2>Rental Services</h2>
+			<img id="intro" src="../de_photos/offering.jpg" alt="intro">
+		</div>
+			
+		<div id="col2" class="float-right" class="col-md-6">
+			<h1>What we offer:</h1>
+			<hr>
+			<ul>
+				<li>Dj Rental Service</li>
+				<li>Event Handler Service</li>
+				<li>Catering</li>
+				<li>Party Bounce Houses</li>
+				<li>Formal Furniture</li>
+				<li>Projection Screens</li>
+				<li>Any Occasion Gazebos</li>
+			</ul>
+
+			<h4 class="vr">Affordability</h4>
+			<h4 class="vr2">Quality</h4>
+
+			<h4 class="vr3">Satisfaction</h4>
+			<h4 class="vr4">Customer</h4>
+
+			<h4 class="vr5">Reliability</h4>
+			<h4 class="vr6">24/7</h4>
+
+			<h4 class="vr7">Free!</h4>
+			<h4 class="vr8">Stress</h4>
+		</div>
+	</div>
+</div>
+
+<!--===============Second Section===================-->
+<div id="cont2" class="container-large">
+	<div id="row2" class="row">
+		<!--Button One-->
+		<div class="col-md-4">
+			<div class="btn" type="button">Learn More!</div>
+			<p>Learn more<br> about our Rentals!</p>
+		</div>
+		<!--Button Two-->
+		<div class="col-md-4">
+			<div class="btn" type="button">Contact Us!</div>
+			<p>Questions?<br> Please Contact us!</p>
+		</div>
+		<!--Button Three-->
+		<div class="col-md-4">
+			<div class="btn" type="button">Price Guide</div>
+			<p>General Rentals<br> Pricing range.</p>
+		</div>
+		
+	</div>
+</div>
+
+<!--=================Footer===================-->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="../de_photos/delogo2.png" alt="de logo main">
+				<p>All Rights Reserved<br>Divine Entertaiment Inc.<sup>&copy;</sup></p>
+			</div>
+
+			<div id="foot1" class="col-sm-4">
+				<h1>Company</h1>
+				<hr>
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Terms</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Customer Service</a></li>
+				</ul>
+			</div>
+
+			<div id="foot2" class="col-sm-4">
+				<h1>Stay in touch</h1>
+				<hr>
+				<ul>
+					<li><a href=""><img id="footImg" src="../de_photos/1facebook.svg">Facebook</a></li>
+					<li><a href=""><img id="footImg" src="../de_photos/1instagram.svg">Instagram</a></li>
+					<li><a href=""><img id="footImg" src="../de_photos/1twitter.svg">Twitter</a></li>
+					<li><a href="mailto:DEinc@outlook.com?subject=Divine Entertainment Inquiry"><img id="footImg" src="../de_photos/1email.svg">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--Javascript Fixed Arrow Scroll to Top Function-->
+<!--================================================================-->
+<script>
+	window.onscroll = function() {
+		arrowHide();
+	}
+	// Hides arrow after user scrolls past 20px
+	function arrowHide() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	    document.getElementById("arrowUp").style.display = "block";
+	  } else {
+	    document.getElementById("arrowUp").style.display = "none";
+	  }
+	}
+
+	// On click of Arrow Icon returns user to Top Page
+	function toTop() {
+		document.body.scrollTop = 0;
+  		document.documentElement.scrollTop = 0;
+	}
+
+	toTop();
+</script>
+</body>
+
+</html>
+

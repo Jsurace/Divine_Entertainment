@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/*
+Divine Entertainment Inc.  
+
+Project1
+Author:	Jenna Surace
+Date:	1/8/2019
+
+File src: mediaq.css
+*/
+/*------Main-----*/
+
+
+
+
+/*
+==========================
+Moblie Styles 0px to 480px
+========================== 
+*/
+
+@media only screen and (max-width: 480px) {
+
+/*----------Media CSS styles are within Main Page de_styles1.css File-----------*/
+
+}
+
+
+/* ============================================
+   Tablet and Desktop Styles: 481px and greater 
+   ============================================
+*/
+
+@media only screen and (min-width: 481px) {
+
+
+}
+
+
+/*-------------------------------------------*/
+/*===============Tablet Media==================*/
+@media only screen and (max-width: 768px) {
+
+html {
+  background-color: black;
+}
+
+/*-----Tablet Media Navigation-----*/
+div.nav ul {
+  padding: 0px;
+}
+
+div.nav div#hoverNav {
+  margin: 0px;
+  padding: 0px;
+}
+
+div.nav li {
+  position: relative;
+  padding: 0px;
+  width: 200px;
+}
+
+div.nav div#hoverNav li a {
+  padding: 20px 30px;
+}
+
+div#hoverNav li a#home {
+  position: relative;
+  left: 17px;
+}
+
+div#hoverNav li a#photoa {
+  position: relative;
+  right: 33px;
+}
+
+div#hoverNav li a#renta {
+  position: relative;
+  left: 12px;
+}
+
+div#hoverNav li a#booka {
+  position: relative;
+  right: 10px;
+}
+
+/*=============Tablet Conetent=============*/
+/*--------Carousel----------*/
+.jumbotron h1#divineH {
+  position: relative;
+  left: 1px;
+}
+
+.jumbotron h1#entertH {
+  position: relative;
+  left: 38px;
+}
+
+.jumbotron h1#photoH {
+  position: relative;
+  left: 5px;
+}
+
+.jumbotron h1#djH {
+  position: absolute;
+  left: 1px;
+}
+
+.jumbotron h1#eventH {
+  position: absolute;
+  right: 10px;
+}
+
+.jumbotron h1#partyH {
+  position: absolute;
+  left: 1px;
+}
+
+/*-----------Section One--------------*/
+
+div#introCont {
+  width: 100%;
+}
+
+div#cont1 h1#sectH {
+  position: relative;
+  left: 160px;
+}
+
+div#cont1 hr {
+  position: relative;
+  left: 160px;
+  width: 60%;
+  margin: 5px 0px;
+}
+
+div#cont1 p#sectP {
+  position: relative;
+  left: 200px;
+}
+
+div#cont1 form {
+  position: relative;
+  left: 1px;
+}
+
+
+/*---------Section Three-----------*/
+div#cont3 h1 {
+  display: none;
+}
+
+div#cont3 div.subForm {
+  position: relative;
+  right: 100px;
+  width: 600px;
+}
+
+div#cont3 div#numb2 {
+  position: relative;
+  width: 100%;
+  right: 20px;
+  padding: 0px;
+}
+
+div#cont3 div.float-left {
+  width: 1%;
+}
+
+div#cont3 button.button {
+  position: relative;
+  padding: 5px 0px;
+  margin: 5px 0px;
+  left: 180px;
+}
+
+/*---------------Footer---------------*/
+div.footer img#deMain {
+  position: relative;
+  width: 70%;
+}
+
+div#foot1 h1 {
+  font-size: 30px;
+}
+
+div#foot1 hr {
+  position: relative;
+  left: 5px;
+  width: 60%;
+  margin: 5px 0px;
+}
+
+div#foot2 h1 {
+  font-size: 30px;
+}
+
+div#foot2 hr {
+  position: relative;
+  left: 5px;
+  margin: 5px 0px;
+  width: 82%;
+}
+
+div#foot2 ul {
+  width: 160%;
+}
+
+}

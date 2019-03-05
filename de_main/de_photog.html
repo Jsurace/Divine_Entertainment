@@ -1,0 +1,195 @@
+<!--
+Divine Entertainment Inc.  
+Rental business for house partys, weddings, or any party event needs. 
+Offering professional photography, rentals, 
+Dj services, and event organizer services.
+
+Project1
+Author:	Jenna Surace
+Date:	1/4/2019
+
+File src: de_photog.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width= device-width, initial-scale= 1" />
+	<!--Bootstrap CND file-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Aclonica|Charm|Comfortaa|Merienda|Montserrat+Alternates" rel="stylesheet">
+	<title>DE Professional Photography</title>
+	<!--Local External Files-->
+	<link href="de_styles2.css" rel="stylesheet">
+</head>
+
+<body>
+<!--Navigation Bar-->
+<div class="nav">
+	<div id="hoverNav" class="container">
+		<ul class="float-left">
+			<li id="home"><a id="home" href="de_main.html">Home</a></li>
+			<li><a id="photoa" href="de_photog.html">Photography</a></li>
+			<li><a id="renta" href="de_rentals.html">Rentals</a></li>
+			<li><a id="booka" href="de_booking.html">Booking</a></li>
+		</ul>
+	</div>
+</div>
+
+
+<!--Main page Content-->
+<!--=================Section One===============-->
+<div id="cont1" class="container-large">
+	<div id="row1" class="row">
+		<div class="float-left" class="col-md-6">
+			<ul onload="nextSlide()" id="slides" class="float-left">
+				<li class="slide">
+			   	 <img src="../de_photos/de_photog4.jpg">
+			    </li>
+				<li class="slide">
+			   	 <img src="../de_photos/weddingdance.jpg">
+			    </li>
+			    <li class="slide">
+			   	 <img src="../de_photos/weddingset.jpg">
+			    </li>
+			    <li class="slide">
+			   	 <img src="../de_photos/de_pastry.jpg">
+			    </li>
+			    <li class="slide">
+			   	 <img src="../de_photos/de_event5.jpg">
+			    </li>
+			</ul>
+			</div>
+		</div>
+			
+		<div class="float-right" class="col-md-6">
+			<h2 id="sectH">DE Professional Photography Services</h2>
+			<hr>
+			<p id="sectP">Every moment deserves attention on 
+			those special occasions or meaningful events in our 
+			lives. Divine Entertainment Inc. strives to capture those
+		 	moments to last a lifetime.</p>
+		</div>
+	</div>
+</div>
+
+<!--================Section Two====================-->
+<div id="cont2" class="container-large">
+	<div class="row full-width-row">
+		<div class="float-left" class="col-md-6">
+			<h2>Divine Entertainment Inc.</h2>
+			<hr>
+			<p>We offer a wide variety of services 
+				to suit your event party needs, formal 
+				events, weddings, or catering.</p>
+			<ul>
+				<li>Party Events</li>
+				<li>Weddings</li>
+				<li>Birthdays</li>
+				<li>Photoshoots</li>
+				<li>Business</li>
+				<li>Any Occasion you can imagine!</li>
+			</ul>
+			<input type="button">
+
+		</div>
+		<div class="col-md-2">
+			<img id="imgSize1" src="../de_photos/de_photog3.jpg">
+		</div>
+		<div class="col-md-2">
+			<img id="imgSize1" src="../de_photos/de_event2.jpg">
+		</div>
+		<div class="col-md-2">
+			<img id="imgSize1" src="../de_photos/de_event1.jpg">
+		</div>
+	</div>
+</div>
+
+<!--Scroll arrow to top Icon-->
+<div class="section">
+	<div class="container">
+			<a href="#"><img onclick="toTop()" class="fixed-bottom" id="arrowUp" src="../de_photos/uparrow.svg" alt="scroll fixed image"></a>
+		</div>
+	</div>
+</div>
+
+
+<!--=================Footer===================-->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="../de_photos/delogo2.png" alt="de logo main">
+				<p>All Rights Reserved<br>Divine Entertaiment Inc.<sup>&copy;</sup></p>
+			</div>
+
+			<div id="foot1" class="col-sm-4">
+				<h1>Company</h1>
+				<hr>
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Terms</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Customer Service</a></li>
+				</ul>
+			</div>
+
+			<div id="foot2" class="col-sm-4">
+				<h1>Stay in touch</h1>
+				<hr>
+				<ul>
+					<li><a href=""><img id="footImg" src="../de_photos/1facebook.svg">Facebook</a></li>
+					<li><a href=""><img id="footImg" src="../de_photos/1instagram.svg">Instagram</a></li>
+					<li><a href=""><img id="footImg" src="../de_photos/1twitter.svg">Twitter</a></li>
+					<li><a href="mailto:DEinc@outlook.com?subject=Divine Entertainment Inquiry"><img id="footImg" src="../de_photos/1email.svg">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--Javascript Fixed Arrow Scroll to Top Function-->
+<!--================================================================-->
+<script>
+	window.onscroll = function() {
+		arrowHide();
+	}
+	// Hides arrow after user scrolls past 20px
+	function arrowHide() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	    document.getElementById("arrowUp").style.display = "block";
+	  } else {
+	    document.getElementById("arrowUp").style.display = "none";
+	  }
+	}
+
+	// On click of Arrow Icon returns user to Top Page
+	function toTop() {
+		document.body.scrollTop = 0;
+  		document.documentElement.scrollTop = 0;
+	}
+
+	toTop();
+</script>
+
+<!--Javascript for image auto scroll-->
+<!--============================================-->
+<script>
+	window.onload = nextSlide;
+
+	var slides = document.querySelectorAll('#slides .slide');
+	var currentSlide = 0;
+	var slideInterval = setInterval(nextSlide,4000);
+
+function nextSlide() {
+    slides[currentSlide].className = 'slide';
+    currentSlide = (currentSlide+1)%slides.length;
+    slides[currentSlide].className = 'slideShowing';
+}
+</script>
+</body>
+
+</html>
+

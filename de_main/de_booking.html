@@ -1,0 +1,177 @@
+<!--
+Divine Entertainment Inc.  
+Rental business for house partys, weddings, or any party event needs. 
+Offering professional photography, rentals, 
+Dj services, and event organizer services.
+
+Project1
+Author:	Jenna Surace
+Date:	1/4/2019
+
+File src: de_booking.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width= device-width, initial-scale= 1" />
+	<!--Bootstrap CND file-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Aclonica|Charm|Comfortaa|Merienda|Montserrat+Alternates" rel="stylesheet">
+	<title>DE Online Booking Reservation</title>
+	<!--Local External Files-->
+	<link href="de_styles4.css" rel="stylesheet">
+</head>
+
+<body>
+<!--Navigation Bar-->
+<div class="nav">
+	<div id="hoverNav" class="container">
+		<ul class="float-left">
+			<li id="home"><a id="home" href="de_main.html">Home</a></li>
+			<li><a id="photoa" href="de_photog.html">Photography</a></li>
+			<li><a id="renta" href="de_rentals.html">Rentals</a></li>
+			<li><a id="booka" href="de_booking.html">Booking</a></li>
+		</ul>
+	</div>
+</div>
+
+<!--Main Page Content-->
+<!-----==========First Section==========---->
+
+<div id="img" class="container" class="static">
+	<div class="row">
+		<img src="../de_photos/booking.jpg">
+		<div class="text"><h3>Online Booking Form</h3></div>
+		<div class="text"><h5>or  <strong><a href="tel:+1-631-888-1111">Call for Details</a></strong></h5></div>
+	</div>
+</div>
+
+<div id="form" class="container">
+  	<div id="mainRow" class="row centered-form">
+      	<div class="col-lg-12">
+        	<div class="panel panel-default">
+        		<div class="panel-heading">
+			    	<h3 class="panel-title">Book Event Consultation</h3>
+			 	</div>
+			 		<div class="panel-body">
+			    		<form role="form">
+
+			    			<!--Form Row 1-->
+			    			<div class="row">
+			    				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+			    					<div class="form-group">
+			                			<input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="First Name" autofocus required>
+			    					</div>
+			    				</div>
+			    				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+			    					<div class="form-group">
+			    						<input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Last Name" required>
+			    					</div>
+			    				</div>
+			    			</div>
+
+			    			<!--Form Row 2-->
+			    			<div class="row">
+			    				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+			    					<div class="form-group">
+			                			<input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address" required>
+			    					</div>
+			    				</div>
+			    				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+			    					<div class="form-group">
+			    						<input type="email" name="email_confirmation" id="econfirm" class="form-control input-sm" placeholder="Confirm Email" required>
+			    					</div>
+			    				</div>
+			    			</div>
+
+			    			<!--Form Row 3-->
+			    			<div id="row3" class="row">
+			    				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+			    					<div class="form-group">
+			    						<input id="tel" type="tel" name="telephone" class="form-control input-sm" placeholder="Phone number 555-555-5555" pattern="^[0-9]{3}-[0-9]{3}-[0-9]{4}$" required>
+			    						<span class="validity"></span>
+			    						<h6>*Please enter your Phone Number with - symbol (ex. 555-555-5555)</h6>
+			    					</div>
+			    				</div>
+			    				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"">
+			    					<div class="form-group">
+			    						<span id="date">Date of Event:</span>
+			    						<input id="calend" class="date" type="date">
+			    					</div>
+			    				</div>
+			    			</div>
+
+    						<!--Submit Btn-->
+			    			<input id="subButton" type="submit" value="Book Now" class="btn btn-info btn-block">
+			    		
+			    		</form>
+			    		<img id="thank" src="../de_photos/thanks.jpg">
+			    	</div>
+
+	    		</div>
+    		</div>
+    	</div>
+    </div>
+
+
+<!--=================Footer===================-->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+				<img src="../de_photos/delogo2.png" alt="de logo main">
+				<p>All Rights Reserved<br>Divine Entertaiment Inc.<sup>&copy;</sup></p>
+			</div>
+
+			<div id="foot1" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+				<h1>Company</h1>
+				<hr>
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Terms</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Customer Service</a></li>
+					<li><a href="#">Feedback</a></li>
+				</ul>
+			</div>
+
+			<div id="foot2" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+				<h1>Stay in touch</h1>
+				<hr>
+				<ul>
+					<li><a href=""><img id="footImg" src="../de_photos/1facebook.svg">Facebook</a></li>
+					<li><a href=""><img id="footImg" src="../de_photos/1instagram.svg">Instagram</a></li>
+					<li><a href=""><img id="footImg" src="../de_photos/1twitter.svg">Twitter</a></li>
+					<li><a href="mailto:DEinc@outlook.com?subject=Divine Entertainment Inquiry"><img id="footImg" src="../de_photos/1email.svg">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+window.addEventListener("load", function() {
+   document.getElementById("subButton").onclick = runSubmit;
+   document.getElementById("tel").oninput = validateTel;
+});
+
+ function validateTel() {
+   var phoneNum = document.getElementById("tel");
+   if(phoneNum.validity.valueMissing) {
+      phoneNum.setCustomValidity("Please enter a valid Phone Number - symbol required");
+   } else {
+      cardName.setCustomValidity("");
+   } 
+}
+
+function runSubmit() {
+   validateTel();
+}
+</script>
+</body>
+
+</html>
+

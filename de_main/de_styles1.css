@@ -1,0 +1,765 @@
+/* 
+Divine Entertainment Inc. 
+-Main Page Stylesheet-
+Author:	Jenna Surace
+Date:	1/4/2019
+
+File: de_styles1.css
+*/
+
+body {
+  background-image: url(../de_photos/partylightbubble.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  }
+
+/*==========Navigation Styles==========*/
+div.nav {
+  padding: 15px 0px;
+  background-color: black;
+}
+
+div.nav li {
+  position: relative;
+	list-style-type: none;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 1.4em;
+	display: inline;
+  padding-right: 40px;
+}
+
+div.nav li a {
+	color: white;
+	text-decoration: none;
+}
+
+/*=======Hover Effect===========*/
+div#hoverNav li a {
+  display: inline-block;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.3em;
+  color: rgba(230, 222, 0, 1);
+  border-radius: 0;
+  padding: 18px 60px 20px;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(223,190,106,0.8), rgba(245,222,77,0.8), rgba(34,34,34,0), rgba(34,34,34,0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0;
+  border: none;
+  border: 1px solid rgba(230,222,0, 0.5);
+}
+
+div#hoverNav li a:hover {
+  color: #fff;
+  border: 1px solid rgba(223,190,106,0);
+  color: white;
+  background-position: 99% 50%;
+}
+
+div#hoverNav ul.float-left {
+  position: relative;
+  width: 120%;
+  -webkit-display-flex;
+  -webkit-flex-wrap: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+/*=========Carousel Slide Styles & Effects==========*/
+div.jumbotron {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+img#p1 ,img#p2 ,img#p3 ,img#p4 ,img#p5 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+
+h1#photoH #photoG {
+  padding: 0;
+  margin: 0;
+}
+
+/*Hide the images by default*/
+.mySlides {
+  display: none;
+}
+
+/*Slide Caption text*/
+.text {
+  color: #f2f2f2;
+  font-size: 100px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.text h1#divineH {
+  font-size: 90px;
+  position: relative;
+  bottom: 255px;
+  right: 272px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.text h1#entertH {
+  font-size: 50px;
+  position: relative;
+  bottom: 222px;
+  right: 262px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.text h1#photoH, h1#photoG {
+  color: rgba(215, 255, 15, 1);
+  text-shadow: 2px 2px 4px black;
+  width: 80%;
+}
+
+.text h1#photoH {
+  font-size: 45px;
+  position: relative;
+  bottom: 257px;
+  right: 40px;
+}
+
+.text h1#photoG {
+  position: relative;
+  bottom: 210px;
+  left: 50px;
+}
+
+.text h1#djH {
+  position: relative;
+  bottom: 5px;
+  right: 258px;
+  text-shadow: 4px 4px 4px black;
+}
+
+.text h1#eventH {
+  position: relative;
+  color: rgba(215, 255, 15, 1);
+  left: 400px;
+  bottom: 35px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.text h1#partyH {
+  position: relative;
+  bottom: 390px;
+  right: 445px;
+  text-shadow: 2px 2px 4px black;
+}
+
+/*Fade animation*/
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 6s;
+  animation-name: fade;
+  animation-duration: 6s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+/*===============Main Page Content===================*/
+/*-----------------Section One---------------*/
+div#cont1 {
+  background-color: black;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+div#cont1 hr {
+  background-color: yellow;
+  position: relative;
+  right: 70px;
+}
+
+h1#sectH {
+  color: white;
+  position: relative;
+  right: 70px;
+  padding-top: 15px;
+}
+
+p#sectP {
+  color: white;
+  position: relative;
+  right: 20px;
+  font-size: 20px;
+  text-align: center;
+  width: 355px;
+}
+
+div#row1 {
+  margin: 0;
+  padding: 0;
+}
+
+img#intro {
+  padding: 0;
+  position: relative;
+  left: 35px;
+  top: 88px;
+  width: 90%;
+  height: 420px;
+}
+
+/*------Login Form-----*/
+.login {
+  margin: 20px auto;
+  width: 350px;
+  padding: 20px 25px;
+  background: white;
+  border: 1px solid #c4c4c4;
+  position: relative;
+  right: 70px;
+}
+
+.login p.create a {
+  text-decoration: none;
+}
+
+.login p.create {
+  text-align: center;
+  color: ;
+}
+
+h1.login-title {
+  margin: -5px -25px 10px;
+  padding: 10px 25px;
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  text-align:center;
+  background: #f7f7f7;
+}
+
+.login-input1, .login-input2 {
+  width: 295px;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left:10px;
+  font-size: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-input1, .login-input2:focus {
+    border-color: #6e8095;
+    outline: none;
+  }
+
+.login-button {
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: rgba(198,172,6,0.9);
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer; 
+  outline: 0;
+}
+
+.login-lost {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.login-lost a {
+  color: #666;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.login-lost a:hover {
+  color: rgba(48, 48, 48, 1);
+}
+
+.passw {
+  position: relative;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #666;
+  text-decoration: none;
+  font-size: 13px;
+  bottom: 27px;
+}
+
+form.login input.login-input2:valid {
+  border-color: forestgreen;
+}
+
+form.login input.login-input2:invalid {
+  border-color: firebrick;
+}
+
+/*-----------------Section Two-----------------*/
+div#section2 {
+  background-color: black;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+}
+
+img#waiterP {
+  position: relative;
+  left: 250px;
+  top: 50px;
+  width: 120%;
+  opacity: 1.0;
+}
+
+div#navCol {
+  position: relative;
+  bottom: 10px;
+  left: 30px;
+  margin: 0;
+  opacity: 1.0;
+}
+
+div#navCol h2 {
+  color: rgba(255, 243, 184, 1);
+  white-space: nowrap;
+}
+
+div#diviNav {
+  position: relative;
+  right: 58px;
+}
+
+a.navLink {
+  text-decoration: none;
+  white-space: nowrap;
+  width: 100%;
+}
+
+div#diviNav a.navLink {
+  list-style-type: none;
+}
+
+.section .row {
+  padding-top: 30px;
+}
+
+p.diviP {
+  display: inline-block;
+  font-size: 20px;
+}
+
+span.diviTitle {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+span.diviTitle {
+  font-family: 'Charm', cursive;
+}
+
+span.diviSub {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+h2 span#spH {
+  font-family: 'Charm', cursive;
+  font-weight: bold;
+}
+
+/*Color Effect*/
+div.diviNav a.navLink:first-child {
+  color: rgba(250, 208, 0, 0.97);
+}
+
+div.diviNav a.navLink:nth-child(2) {
+  color: rgba(255, 216, 20, 0.97);
+}
+
+div.diviNav a.navLink:nth-child(3) {
+  color: rgba(255, 223, 61, 0.97);
+}
+
+div.diviNav a.navLink:nth-child(4) {
+  color: rgba(255, 229, 97, 0.97);
+}
+
+div.diviNav a.navLink:nth-child(5) {
+  color: rgba(255, 237, 148, 0.97);
+}
+
+div.diviNav a.navLink:nth-child(6) {
+  color: rgba(255, 241, 173, 1);
+}
+
+/*-------------Section Three-----------------*/
+div#cont3 {
+  position: relative;
+  background-color: black;
+  opacity: 0.8;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+div#cont3 #row1 {
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+div#cont3 .float-left {
+  width: 30%;
+  height: 300px;
+}
+
+div#cont3 .float-left h1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 85px;
+}
+
+div#cont3 #numb2 h1, p {
+  color: white;
+}
+
+div#cont3 #numb2 p {
+  width: 60%;
+  text-align: center;
+}
+
+div#cont3 #numb2 h1 {
+  width: 480px;
+  margin: 0;
+  padding: 0;
+}
+
+div#cont3 h1 span {
+  margin-left: 22px;
+  position: relative;
+  bottom: 10px;
+}
+
+/*Subscribe Form Styles*/
+.subForm {
+  background: #0c3e5f;
+  color: #fefefe;
+  white-space: nowrap;
+  padding: 2rem;
+  border-radius: 50px;
+  position: relative;
+  top: 40px;
+  width: 120%;
+  left: 100px;
+}
+
+.subForm .button {
+  margin-bottom: 0;
+  border-radius: 0 0 0 0;
+}
+
+.subForm span#mailIcon {
+  position: relative;
+  font-size: 2em;
+  background-color: white;
+  opacity: 0.9;
+  padding: 2.5px 4px;
+}
+
+.subForm input {
+  width: 400px;
+}
+
+/*------===========Footer Styles========------*/
+div.footer {
+  text-align: left;
+  background-color: black;
+}
+
+div.footer li {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+div.footer li a {
+  text-decoration: none;
+  color: white;
+}
+
+div#foot1 h1 {
+  color: white;
+}
+
+div#foot1 hr {
+  background-color: yellow;
+  position: relative;
+  width: 170px;
+  right: 90px;
+}
+
+div#foot2 h1 {
+  color: white;
+}
+
+div#foot2 hr {
+  background-color: yellow;
+  position: relative;
+  width: 210px;
+  right: 55px;
+}
+
+div.footer p {
+  color: white;
+}
+
+img#footImg {
+ width: 10%;
+ height: 10%;
+ align-content: left;
+ padding: 4px 4px;
+}
+
+
+
+
+
+/*=================================================================================================================================*/
+
+
+
+
+
+a#mobileNav {
+  display: none;
+}
+/*--------------Media Queries---------------*/
+/* =========================
+   Mobile Styles: 0 to 480px 
+   =========================
+*/
+@media only screen and (max-width: 480px) {
+
+html {
+  background-color: black;
+}
+
+img#intro { 
+  display: none;
+}
+
+img#waiterP {
+  display: none;
+}
+
+div.jumbotron {
+  display: none;
+}
+
+/*Media Section One*/
+div#cont1 h1#sectH {
+  position: relative;
+  font-size: 25px;
+  left: 10px;
+}
+
+div#cont1 hr {
+  position: relative;
+  left: 10px;
+  width: 83%;
+  margin: 5px 0px;
+}
+
+div#cont1 p#sectP {
+  position: relative;
+  
+}
+
+div#cont1 form {
+  position: absolute;
+  left: 40px;
+  
+}
+
+
+/*Media Section Two*/
+div#section2 p.diviP span {
+   font-family: 'Comfortaa', cursive;
+}
+
+div#section2 span#spH {
+  font-size: 50px;
+  font-family: 'Comfortaa', cursive;
+}
+
+div#section2 div#navCol span {
+  font-size: 14px;
+}
+
+div#section2 div#navCol {
+  padding: 0px;
+  margin: 0px;
+}
+
+div#section2 div#navCol span.diviSub {
+  font-size: 13px;
+}
+
+/*Media Section Three*/
+
+div#cont3 h1 {
+  display: none;
+}
+
+div#cont3 {
+  height: 300px;
+}
+
+div#cont3 div#numb2 {
+  position: relative;
+  right: 210px;
+  width: 70%;
+}
+
+div#cont3 div#numb2 p {
+  font-size: 12px;
+}
+
+div#cont3 span#mailIcon {
+  display: none;
+}
+
+div#cont3 button.button {
+  position: relative;
+  left: 97px;
+  margin-top: 10px;
+}
+
+div#cont3 div.subForm {
+  position: relative;
+  width: 130%;
+
+}
+
+/*Media Footer Styles*/
+
+div.footer img#deMain {
+    position: relative;
+    left: 135px;
+}
+
+div.footer p#logoP {
+  position: relative;
+  left: 130px;
+}
+
+div#foot1 h1 {
+  position: relative;
+  left: 134px;
+}
+
+div#foot1 hr {
+  position: relative;
+  left: 70px;
+  margin: 16px 60px;
+  width: 43%;
+}
+
+div#foot1 li {
+  position: relative;
+  left: 140px;
+}
+
+div#foot2 h1 {
+  position: relative;
+  left: 105px;
+}
+
+div#foot2 hr {
+  position: relative;
+  left: 60px;
+  width: 57%;
+  margin: 16px 50px;
+}
+
+div#foot2 li {
+  position: relative;
+  left: 115px;
+}
+
+div#foot2 ul {
+  position: relative;
+  left: 10px;
+}
+
+
+
+/*--------------3 Line NavIcon-----------------------*/
+
+div.nav div#hoverNav ul {
+  display: none;
+}
+
+/*Nav Icon*/
+ a#mobileNav {
+   display: block;
+}
+
+a#mobileNav img {
+  position: relative;
+  width: 14%;
+}
+
+div#hoverNav ul {
+   display: none;
+}
+
+a#mobileNav:hover+ul, div#hoverNav ul:hover {
+   display: block;
+}
+
+}
+
+
+
+/*===================Custom Media edit===================*/
+  @media only screen and (max-width: 1105px) {
+
+    img#waiterP {
+      display: none;
+    }
+
+    div#cont1 img#intro {
+      display: none;
+    }
+
+  }
+
+
+
